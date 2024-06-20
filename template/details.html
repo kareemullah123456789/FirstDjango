@@ -1,0 +1,16 @@
+
+{% block title %}
+ EdNotesList of all users
+{% endblock %}
+
+{% block content %}
+
+<h1>{{myusers.firstname }} {{ myusers.lastname}}</h1>
+
+<p>bob:{{myusers.dob}}</p>
+<p>Email:{{myusers.email}}</p>
+
+<p>Back to <a href="/users">users</a></p>
+
+{% endblock %}
+
